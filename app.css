@@ -1,15 +1,16 @@
-.bg-img{
+
+@media(min-width:570px){
+    .bg-img{
     background-image: url(imgs/d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 500px;
-
 }
-
-#main_nav{
+}
+/* #main_nav{
     opacity: 0.9;
-}
+} */
 #photo-brand{
     font-size: 2.0rem;
     font-family: 'EB Garamond', serif;
@@ -35,6 +36,7 @@
     padding: 20px;
     opacity: 0.9;
     margin: 20px;
+    margin-top: 100px;
     border-radius: 10px;
 }
 #main_class{
